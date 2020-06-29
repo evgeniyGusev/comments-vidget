@@ -1,0 +1,30 @@
+.vidget__name-input {
+  width: 220px;
+}
+
+.vidget__text-input {
+  resize: none;
+  width: 100%;
+  height: 55px;
+}
+
+.add-comment {
+  padding: 10px;
+  width: 120px;
+  align-self: flex-end;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 #000;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #000;
+  box-shadow: 0 0 4px 0 #000;
+}

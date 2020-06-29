@@ -1,0 +1,84 @@
+.vidget {
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  padding: 5px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 4px 0 #000;
+}
+
+.comment__auth-info {
+  position: relative;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid silver;
+  display: flex;
+  align-items: center;
+}
+
+.comment__auth-ava {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  animation: around infinite 10s linear;
+}
+
+@keyframes around {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+.comment__auth-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #444;
+  margin-left: 10px;
+}
+
+.comment__delete-btn {
+  padding: 1px;
+  border: none;
+  background: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 700;
+  transform: rotate(45deg);
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+  opacity: .35;
+  transition: opacity .2s;
+}
+
+.comment__delete-btn:hover {
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.comment__text {
+  font-size: 14px;
+  padding: 0 5px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.comment__date {
+  text-align: right;
+  padding: 5px;
+  font-size: 12px;
+  color: silver;
+}

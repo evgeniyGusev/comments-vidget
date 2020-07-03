@@ -41,7 +41,6 @@ class App extends Component {
     this.setState({comments});
   }
 
-  //не доходит, как сделать из этого одну функцию:
   setNameValue = ev => this.setState( {author: ev.target.value} );
   setTextValue = ev => this.setState( {text: ev.target.value} );
 
